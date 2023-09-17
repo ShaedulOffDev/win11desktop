@@ -1,0 +1,52 @@
+import { Add, AndroidStudio, Bhop, Blender, CMD, CSGO, CapCut, Chrome, Cs16, Discord, Display, Docker, Dota, FileIcon, Forza, GameLoop, Garena, GitHub, GtaV, Instagram, LDPlayer, LinkedIn, MagicaVoxel, Mail, Meet, More, Pencil, Postman, Pusk, Refresh, Search, Sort, Steam, Store, Telegram, Trash, Undo, VSCode, View, VrBox, WhatsApp, WindowIcon, Zoom } from "../assets";
+import {ContextMenuI, IconI} from "../interfaces/Interface";
+
+export const Icons: IconI[] = [
+  {name: 'Android Studio', type: 'left', src: AndroidStudio},
+  {name: 'MagicaVoxel', type: 'left', src: MagicaVoxel},
+  {name: 'Blender 3.6', type: 'left', src: Blender},
+  {name: 'Oracle VM VirtualBox', type: 'left', src: VrBox},
+  {name: 'Postman', type: 'left', src: Postman},
+  {name: 'Docker Desktop', type: 'left', src: Docker},
+  {name: 'Discord', type: 'left', src: Discord},
+  {name: 'Zoom', type: 'left', src: Zoom},
+  {name: 'GitHub Desktop', type: 'left', src: GitHub},
+  {name: 'WhatsApp', type: 'left', src: WhatsApp},
+  {name: 'LinkedIn', type: 'left', src: LinkedIn},
+  {name: 'CapCut', type: 'left', src: CapCut},
+  {name: 'GameLoop', type: 'right', src: GameLoop},
+  {name: 'GTA5.exe', type: 'right', src: GtaV},
+  {name: 'ForzaHorizon', type: 'right', src: Forza},
+  {name: 'w3l.exe', type: 'right', src: Dota},
+  {name: 'GarenaTotal', type: 'right', src: Garena},
+  {name: 'CSGO', type: 'right', src: CSGO},
+  {name: 'steam.exe', type: 'right', src: Steam},
+  {name: 'CS 1.6 Russian', type: 'right', src: Cs16},
+  {name: 'Ultimate Bunnyhop.exe', type: 'right', src: Bhop},
+  {name: 'LDPlayer9', type: 'right', src: LDPlayer},
+  {name: 'Recycle Bin', type: 'right', src: Trash},
+  {name: 'Pusk', type: 'taskbar', src: Pusk},
+  {name: 'Search', type: 'taskbar', src: Search},
+  {name: 'Window', type: 'taskbar', src: WindowIcon},
+  {name: 'Meet', type: 'taskbar', src: Meet},
+  {name: 'File Manager', type: 'taskbar', src: FileIcon},
+  {name: 'Store', type: 'taskbar', src: Store},
+  {name: 'Mail', type: 'taskbar', src: Mail},
+  {name: 'VS code', type: 'taskbar', src: VSCode},
+  {name: 'Telegram', type: 'taskbar', src: Telegram},
+  {name: 'Instagram', type: 'taskbar', src: Instagram},
+  {name: 'Chrome', type: 'taskbar', src: Chrome},
+]
+
+export const contextMenuItems: ContextMenuI[] = [
+  {name: 'View', src: View, type: 'icon', payload: 'fa fa-chevron-right'},
+  {name: 'Sort by', src: Sort, type: 'icon', payload: 'fa fa-chevron-right'},
+  {name: 'Refresh', src: Refresh, type: 'none', payload: ''},
+  {name: 'Undo Move', src: Undo, type: 'text', payload: 'Ctrl+Z'},
+  {name: 'New', src: Add, type: 'icon', payload: 'fa fa-chevron-right'},
+  {name: 'Display settings', src: Display, type: 'none', payload: ''},
+  {name: 'Personalize', src: Pencil, type: 'none', payload: ''},
+  {name: 'Open in Terminal', src: CMD, type: 'none', payload: ''},
+  {name: 'Show more options', src: More, type: 'none', payload: ''},
+]
+
