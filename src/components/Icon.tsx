@@ -1,4 +1,4 @@
-import IconI from "../interfaces/Interface";
+import {IconI} from "../interfaces/Interface";
 
 const Icon: React.FC<IconI> = ({ name, src, type }) => {
   const nameArr = name.split(" ");
